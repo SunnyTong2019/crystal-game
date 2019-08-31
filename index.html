@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
@@ -25,15 +27,17 @@
         -Each time when the game starts, the game will change the value of each crystal.
     </p>
 
-    <div id="randomNumber"></div>
-    <div id="totalScore">0</div>
+    <div class="container">
+        <div id="randomNumber">69</div>
+        <div id="totalScore">0</div>
+    </div>
 
     <img src="assets/images/Amethyst.png" alt="crystal image" data-points="5">
     <img src="assets/images/Citrine.png" alt="crystal image" data-points="2">
     <img src="assets/images/Gem.png" alt="crystal image" data-points="10">
     <img src="assets/images/Gemstone.png" alt="crystal image" data-points="8">
 
-    <h3>Wins: <span id="wins">0</span></h3>
+    <h3>Wins: <span id="wins">0</span></h3><br>
     <h3>Losses: <span id="losses">0</span></h3>
 
     <script src="assets/javascript/game.js"></script>

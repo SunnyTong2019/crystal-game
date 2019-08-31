@@ -1,5 +1,49 @@
 body {
     background: url(https://i.ytimg.com/vi/zgg1xGSGw0s/maxresdefault.jpg) no-repeat center center fixed;
     background-size: cover;
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p { 
+    width: 50%;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container > div {
+    background-color: white;
+    width: 200px;
+    margin: 20px;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+img {
+    margin-right: 20px;
+    margin-bottom: 40px;
 }
 
