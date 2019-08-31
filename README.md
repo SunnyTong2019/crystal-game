@@ -9,9 +9,9 @@
 
 * Each time when the game starts, the game will change the value of each crystal.
 
-  ** Wins: # of times the user matched the random number.
+  * Wins: # of times the user matched the random number.
 
-  ** Losses: # of times the user went above the random number.
+  * Losses: # of times the user went above the random number.
 
 
 ## Contributing
