@@ -13,8 +13,7 @@
 
   * Losses: # of times the user went above the random number.
 
-* The app is deployed at: https://sunnytong2019.github.io/unit-4-game/
-
+* The app is deployed at: https://sunnytong2019.github.io/crystal-game/
 
 
 
